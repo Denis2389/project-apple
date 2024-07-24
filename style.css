@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+address {
+  font-style: normal;
+}
+
+.container {
+    max-width: 1295px;
+    padding: 0px 73px;
+}
+
+.header {
+    padding-top: 30px;
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 44px;
+    text-transform: uppercase;
+}
+
+.logo_svg {
+    display: flex;
+    gap: 21px;
+}
+
+
+.nav-link {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 120%;
+    color: #000;
+    text-decoration: none;
+}
+
+.after-effect {
+    display: inline-flex;
+    align-items: center;
+    position: relative;
+}
+
+.after-effect::after {
+    content: '>';
+    font-size: 20px; /* Размер стрелки */
+    margin-left: 10px; /* Отступ между текстом и стрелкой */
+    display: inline-block;
+    transform: rotate(90deg);
+}
+
+.green-container {
+   margin-top: 32px;
+   background-color: #F0FFF0;
+   border-radius: 30px;
+   padding-left: 56px;
+   padding-right: 56px;
+   background-image: url(./img/header-phones.png);
+   background-repeat: no-repeat;
+   background-size: 647px 550px;
+   background-position: right bottom;
+
+}
+
+.title-name {
+font-weight: 400;
+font-size: 58px;
+line-height: 120%;
+color: #000;
+max-width: 588px;
+padding-top: 145px;
+}
+
+.title-paragraph {
+font-weight: 400;
+font-size: 16px;
+line-height: 120%;
+color: #000;
+max-width: 565px;
+padding-top: 19px;
+padding-bottom: 30px;
+}
+
+.button-explore {
+    width: 170px;
+    height: 50px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 120%;
+    text-transform: capitalize;
+    color: #000;
+    border-radius: 25px;
+    border: 1px solid rgba(0, 0, 0, 0.7);
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0);
+    transition: background-color 0.3s;
+    margin-bottom: 127px;
+}
+
+.button-explore:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.name-category {
+font-weight: 400;
+font-size: 42px;
+line-height: 125%;
+text-align: center;
+color: #000;
+margin-top: 75px;
+margin-bottom: 7px;
+}
+
+.name-paragraph {
+font-weight: 400;
+font-size: 14px;
+line-height: 120%;
+text-align: center;
+color: #000;
+margin-bottom: 55px;
+}
+
+.laptop-card,
+.watch-card,
+.phone-card,
+.tablet-card {
+    box-shadow: 0 4px 35px 0 rgba(0, 0, 0, 0.25);
+    /* position: relative; */
+}
+
+
+.laptop-card {
+    width: 639px;
+    height: 472px;
+    background-image: url(./img/laptop.png);
+    background-repeat: no-repeat;
+    background-size: 500px 377px;
+    background-position: top center;
+}
+
+.watch-card {
+    width: 639px;
+    height: 270px;
+    margin-top: 72px;
+}
+
+.card-name {
+font-weight: 400;
+font-size: 32px;
+line-height: 120%;
+/* text-align: right; */
+color: #000;
+width: 192px;
+height: 77px;
+}
+
+/* .laptop {
+    position: absolute;
+    bottom: 70px;
+    right: 20px;
+} */
+
+.laptop-card,
+.watch-card {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.watch-card {
+    background-image: url(./img/watch.png);
+    background-repeat: no-repeat;
+    background-size: 381px 270px;
+    background-position: top left;
+    align-items: center;
+}
+
+.phone-card {
+    width: 312px;
+    height: 792px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.phone-card {
+    background-image: url(./img/phones.png);
+    background-repeat: no-repeat;
+    background-size: 405px 367px;
+    background-size: contain;
+    background-position: center;
+}
