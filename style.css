@@ -35,7 +35,8 @@ address {
 }
 
 .container {
-    max-width: 1295px;
+    margin: 0 auto;
+    width: 1295px;
     padding: 0px 73px;
 }
 
@@ -225,4 +226,8 @@ height: 77px;
     background-size: 405px 367px;
     background-size: contain;
     background-position: center;
+}
+
+.product-flex {
+    margin-top: 53px;
 }
