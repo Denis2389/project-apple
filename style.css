@@ -388,6 +388,9 @@ footer {
         margin: 0 auto;
     }
 
+    /* На секцию футер задавать background color и width 100% */
+
+
     .card-name {
         font-size: 25px;
     }
